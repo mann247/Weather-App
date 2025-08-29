@@ -1,0 +1,93 @@
+N Manning
+8-25-25
+Week 11 - 12
+
+Node Module System
+ - Allows the developer to load functionality into the app and use it to complete tasks
+ - Three ways
+    1. core node modules
+    2. third party modules
+    3. created from the developer
+
+
+~~~~~~~~~
+Core Modules
+- Some modules are available globally
+- Others are required to be loaded in.
+
+~~~~~~~~~
+File System Module
+- allows the developer to gain access to the operating systems file system
+- Asynchronous vs. Synchronous
+
+.writeFileSync = two arguments
+1. name of the file that you write to
+2. the data that you write
+    - responsible for writing data to a file
+        - if the file doesn't exist, it'll be created
+        - if it does exist, it will be overwritten
+
+Require Function: 
+    - how the developer loads in other things
+    - node module
+    - npm module
+    - a user created File
+
+appendFileSync
+- the name of the file you are trying to append
+
+~~~~~~~~~~
+
+Importing my own File
+
+when we pass a file to node, only that file executes
+if you want another file to run, you have to require the file to be loaded in.
+
+All files (modules) have their own scope
+
+Export
+    - module.exports 
+    - whatever is assigned is what is exported.
+    - exporting a function
+
+
+Do not edit node modules editor
+
+chalk
+- a utility that customizes how text is printed in the console.
+
+
+Section 4.
+command - what action you are trying to take when loading the program
+process.argv  = a property in Node.js that provides an array containing the command-line arguments passed when the Node.js
+process is launced.
+allows for a node.js application to access and utilize information provided by the user or another process at the time of execution
+
+yargs.parse()
+json.strigify
+
+
+Arrow Functions
+
+~~~~~~~~~~~~~~~~
+Call Stack:
+- Work in tandem
+- Simple data structure
+- Tracks the execution of the program, and does this by counting all of the functions that are running
+- Think of a can of tennis balls, you can only put the top in or out.
+
+Callback Queue:
+- 
+
+Event Loop:
+- 
+
+~~~~~~~~
+
+Weather App 
+- Setting up a query string = ?
+- npm init -y : answers yes 
+
+A stack trace, also known as a backtrace, is a report of the active stack frames at a certain point in time during a program's execution. It provides a list of the function or method calls that are currently on the call stack, in reverse order of their invocation (most recent call first).
+
+error handling: The process of detecting, managing and responding to unexpected situations or anomalies that occur during the execution program or system
